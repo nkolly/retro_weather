@@ -1,0 +1,48 @@
+name: retro_weather
+author: Nathan Koelliker
+description: Retro Style Weather App
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^0.1.2
+  weather: ^0.1.3
+  font_awesome_flutter: ^8.4.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: ^0.7.0
+
+flutter_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/retroWeatherIcon.png"
+
+flutter:
+
+
+  uses-material-design: true
+
+
+  assets:
+      - assets/cloudy.gif
+      - assets/partlycloudy.gif
+      - assets/rainy.gif
+      - assets/snowy.gif
+      - assets/stormy.gif
+      - assets/sunny.gif
+
+
+
+  fonts:
+    - family: Press Start
+      fonts:
+        - asset: fonts/PressStart2P-Regular.ttf
+
