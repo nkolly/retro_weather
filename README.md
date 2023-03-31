@@ -1,6 +1,8 @@
 # retro_weather
 
-Retro Style Weather App Created with Flutter. Runs on both iOS and Android.
+# Note: Freshman year code***
+
+Retro Style Weather App Created with less than 500kb of Dart code and Flutter. Runs on both iOS and Android. 
 
 ![](retro_weatherdemo.gif)
 
